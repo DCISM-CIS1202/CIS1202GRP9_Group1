@@ -289,7 +289,7 @@ h1 {
 }
 
 .usability_left img {
-    width: auto;
+    width: 700px;
     height: 33rem;
     border: 0.2rem solid #66EB97;
     border-radius: 1.2rem;
@@ -301,4 +301,92 @@ h1 {
     font-size: 1rem;
     margin: 0.4rem 0 1rem 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*  | ACCESSABILITY |  */
+
+.access_img {
+    margin-top: 11rem;
+    margin-left: 1rem;
+}
+
+.access_img img {
+    width: 680px;
+    height: 33rem;
+    border: 0.2rem solid #66EB97;
+    border-radius: 1.2rem;
+    object-fit: cover;
+}
+.access_img2 {
+    margin-top: auto;
+    margin-left: 9rem;
+}
+
+.access_img2 img {
+    width: 710px;
+    height: 33rem;
+    border: 0.2rem solid #66EB97;
+    border-radius: 1.2rem;
+    object-fit: cover;
+}
+
+.acc_container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.acc_right h1 {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    font-size: 8rem;
+    align-self: flex-start;
+}
+
+.acc_content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.acc_right {
+    margin-left: 120px;
+    width: 35%;
+}
+.acc_right2 {
+    margin: 0;
+    width: 32%;
+}
+
+.acc_right hr {
+    margin-left: 3.1rem;
+    margin-top: -0.8rem;
+}
+
+.acc_right p {
+    margin-left: 2.2rem;
+    margin-right: -1.2rem;
+    color: #A3A3C2;
+    font-size: 1.4rem;
+    font-family: "Lilita One", serif;
+    text-align: justify;
+    margin-top: 2rem;
+}
+
+.acc_right2 hr {
+    margin-left: 3.1rem;
+    margin-top: -0.8rem;
+}
+
+.acc_right2 p {
+    margin-left: 2.2rem;
+    margin-right: -1.2rem;
+    color: #A3A3C2;
+    font-size: 1.4rem;
+    font-family: "Lilita One", serif;
+    text-align: justify;
+    margin-top: 2rem;
 }
