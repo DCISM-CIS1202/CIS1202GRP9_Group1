@@ -25,9 +25,9 @@ body {
     height: 40vh;
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
     padding: 10%;
-} 
+}
 
 .content-home {
     max-width: 60rem;
@@ -35,7 +35,7 @@ body {
     color: #A3A3C2;
 }
 
-.content-home p{
+.content-home p {
     margin-left: 8rem;
     font-size: 22px;
     color: #a3a3c2;
@@ -43,11 +43,11 @@ body {
     font-family: "Lilita One", serif;
 }
 
-.homeimg { 
+.homeimg {
     border-radius: 15%;
 }
 
-.homeimg img{
+.homeimg img {
     height: 20rem;
     width: 20rem;
 }
@@ -56,18 +56,22 @@ hr {
     border: 4px solid #66EB97;
 }
 
+
 /*HEADER*/
 
- 
 .firstpage {
     display: flex;
-    align-items: center; /* Aligns h1 and image vertically */
-    justify-content: space-between; /* Pushes them apart */
-    padding: 5%; /* Add spacing instead of negative margins */
+    align-items: center;
+    /* Aligns h1 and image vertically */
+    justify-content: space-between;
+    /* Pushes them apart */
+    padding: 5%;
+    /* Add spacing instead of negative margins */
 }
 
 h1 {
-    margin: 0; /* Remove unnecessary margins */
+    margin: 0;
+    /* Remove unnecessary margins */
     color: #FFF;
     font-family: Modak;
     font-size: 223px;
@@ -77,20 +81,22 @@ h1 {
 }
 
 .cat {
-    width: 380px; /* Keep image size controlled */
+    width: 380px;
+    /* Keep image size controlled */
     height: auto;
     border-radius: 15%;
 }
 
 .cat img {
     margin-top: -10%;
-    width: 100%; /* Ensures the image fills the .cat container */
+    width: 100%;
+    /* Ensures the image fills the .cat container */
     height: auto;
 }
 
 
-
 /*  | HTML STRUCTURE |  */
+
 .html-structure {
     display: flex;
     flex-direction: column;
@@ -113,7 +119,7 @@ h1 {
 
 .html-structure h2 {
     font-family: modak;
-    color:#FFF;
+    color: #FFF;
     font-size: 4.6rem;
     font-weight: 100;
     margin-top: 4rem;
@@ -123,4 +129,63 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
     color: #66EB97;
+}
+
+
+/* CSS Styling */
+
+.css-styling {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 10rem;
+}
+
+.css-container {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.css-box {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: auto;
+    margin: 1rem;
+}
+
+.css-box h2 {
+    color: #A3A3C2;
+    font-size: 2rem;
+    font-family: "Lilita One", serif;
+    text-align: justify;
+    margin-top: 2rem;
+    text-align: left
+}
+
+.css-box p {
+    flex: 1;
+    color: #A3A3C2;
+    font-size: 1.4rem;
+    font-family: "Lilita One", serif;
+    text-align: justify;
+    margin-top: 2rem;
+}
+
+.css-box img {
+    width: 100%;
+    height: 25rem;
+    border: 0.25rem solid #66EB97;
+    border-radius: 1.6rem;
+    object-fit: cover;
+    align-self: flex-start;
+}
+
+.css-styling h1 {
+    font-size: 8rem;
 }
