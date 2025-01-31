@@ -304,8 +304,9 @@ h1 {
 }
 
 footer{
-    color:  #A3A3C2;
-    font-family: "Lato", serif;
+    background-color: #66EB97;
+    color:  #5c5c81;
+    font-family: Poppins , sans-serif;
     text-align: center;
     font-weight: 300px;
     padding-bottom: 20px;
