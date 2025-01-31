@@ -302,3 +302,11 @@ h1 {
     margin: 0.4rem 0 1rem 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+footer{
+    color:  #A3A3C2;
+    font-family: "Lato", serif;
+    text-align: center;
+    font-weight: 300px;
+    padding-bottom: 20px;
+}
