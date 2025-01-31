@@ -193,7 +193,7 @@ h1 {
     justify-content: center;
     align-items: stretch;
     width: 100%;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .css-box {
@@ -219,6 +219,13 @@ h1 {
     margin-top: 2rem;
 }
 
+.css-box .img_desc p {
+    color: #A3A3C2;
+    font-size: 1rem;
+    margin: 0.4rem 0 1rem 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .css-styling h1 {
     font-size: 8rem;
 }
@@ -229,4 +236,69 @@ h1 {
     font-family: "Lilita One", serif;
     text-align: left;
     margin-top: 2rem;
+}
+
+
+/*  | USABILITY |  */
+
+.usability_container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.usability_right h1 {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    font-size: 8rem;
+    align-self: flex-start;
+}
+
+.usability_content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 3rem;
+}
+
+.usability_right {
+    margin: 0;
+    width: 32%;
+}
+
+.usability_right hr {
+    margin-left: 3.1rem;
+    margin-top: -0.8rem;
+}
+
+.usability_right p {
+    margin-left: 2.2rem;
+    margin-right: -1.2rem;
+    color: #A3A3C2;
+    font-size: 1.4rem;
+    font-family: "Lilita One", serif;
+    text-align: justify;
+    margin-top: 2rem;
+}
+
+.usability_left {
+    margin-top: 5rem;
+    margin-left: 9rem;
+}
+
+.usability_left img {
+    width: auto;
+    height: 33rem;
+    border: 0.2rem solid #66EB97;
+    border-radius: 1.2rem;
+    object-fit: cover;
+}
+
+.img_desc {
+    color: #A3A3C2;
+    font-size: 1rem;
+    margin: 0.4rem 0 1rem 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
