@@ -123,6 +123,7 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
     color: #66EB97;
+    font-size: 1.2rem;
 }
 
 .html-structure .main-image-container {
@@ -157,6 +158,11 @@ h1 {
     font-size: 1rem;
     margin: 0.4rem 0 1rem 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.html-structure .game-display img {
+    height: 20rem;
+    width: auto;
 }
 
 /*  | CSS STYLES |  */
