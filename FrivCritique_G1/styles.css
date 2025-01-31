@@ -12,14 +12,11 @@ body {
     height: 1000vh;
 }
 
-header{
-    margin-top: -15%;
-}
 
 .home {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 40vh;
     display: flex;
     justify-content: space-between;
     align-items: center;  
@@ -27,7 +24,7 @@ header{
 } 
 
 .content-home {
-    max-width: 995px;
+    max-width: 60rem;
     padding-top: 40px 0 100px 0;
     color: #A3A3C2;
 }
@@ -48,14 +45,12 @@ header{
 }
 
 .homeimg img{
-    max-height: 280px;
-    max-width: 280px;
-    width: 280px;
+    height: 20rem;
+    width: 20rem;
     height: auto;
 }
 
-hr{
-    margin-top: -32%;
+hr {
     border: 4px solid #66EB97;
 }
 
@@ -63,7 +58,6 @@ hr{
 
  
 .firstpage {
-    margin-top: -18%;
     display: flex;
     align-items: center; /* Aligns h1 and image vertically */
     justify-content: space-between; /* Pushes them apart */
