@@ -390,3 +390,11 @@ h1 {
     text-align: justify;
     margin-top: 2rem;
 }
+
+footer{
+    color:  #A3A3C2;
+    font-family: "Lato", serif;
+    text-align: center;
+    font-weight: 300px;
+    padding-bottom: 20px;
+}
