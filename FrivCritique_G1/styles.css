@@ -87,3 +87,34 @@ h1 {
     width: 100%; /* Ensures the image fills the .cat container */
     height: auto;
 }
+
+
+
+/*  | HTML STRUCTURE |  */
+.html-structure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 10rem;
+}
+
+.html-structure h1 {
+    font-size: 8rem;
+}
+
+.html-structure p {
+    color: #A3A3C2;
+    font-size: 1.4rem;
+    font-family: "Lilita One", serif;
+    text-align: justify;
+    margin-top: 2rem;
+}
+
+.html-structure h2 {
+    font-family: modak;
+    color:#FFF;
+    font-size: 4.6rem;
+    font-weight: 100;
+    margin-top: 4rem;
+}
